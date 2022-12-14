@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20221213 21:28:08.634" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Asus\.vscode\extensions\robocorp.robotframework-lsp-1.6.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser">
+<arg>${base_url}</arg>
+<arg>chrome</arg>
+<msg timestamp="20221213 21:28:09.916" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20221213 21:28:09.915" endtime="20221213 21:28:09.916"/>
+</kw>
+<kw name="Click Element">
+<arg>id=btn-make-appointment</arg>
+<status status="NOT RUN" starttime="20221213 21:28:09.920" endtime="20221213 21:28:09.920"/>
+</kw>
+<kw name="Input Text">
+<arg>id=txt-username</arg>
+<arg>John Doe</arg>
+<status status="NOT RUN" starttime="20221213 21:28:09.921" endtime="20221213 21:28:09.921"/>
+</kw>
+<kw name="Input Password">
+<arg>id=txt-password</arg>
+<arg>ThisIsNotAPassword</arg>
+<status status="NOT RUN" starttime="20221213 21:28:09.923" endtime="20221213 21:28:09.923"/>
+</kw>
+<kw name="Click Button">
+<arg>id=btn-login</arg>
+<status status="NOT RUN" starttime="20221213 21:28:09.927" endtime="20221213 21:28:09.927"/>
+</kw>
+<status status="PASS" starttime="20221213 21:28:08.665" endtime="20221213 21:28:17.704"/>
+</kw>
+<status status="PASS" starttime="20221213 21:28:08.665" endtime="20221213 21:28:17.705"/>
+</test>
+<status status="PASS" starttime="20221213 21:28:08.636" endtime="20221213 21:28:17.706"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
